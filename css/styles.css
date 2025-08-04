@@ -1,0 +1,38 @@
+
+body {
+    background-color: rgb(234, 209, 243);
+}
+
+h1 {
+    background-color: black;
+    color: crimson;
+    text-align: center;
+}
+
+h2 {
+    color: deeppink;
+}
+
+div {
+    border: double cornflowerblue;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+    float: left;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: both;
+}
+
+footer {
+    text-align: center;
+}
+
